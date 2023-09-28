@@ -3,6 +3,7 @@ package dsaExercises.com.array;
 import java.util.Arrays;
 
 public class SubarrayAll {
+	
 	 public static  int[][] solve(int[] A) {
 	      int N = A.length;
 	        int[][] subarrays = new int[N * (N + 1) / 2][];
