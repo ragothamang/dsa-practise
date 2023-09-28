@@ -30,8 +30,14 @@ public class SubarrayAll {
 		// TODO Auto-generated method stub
 		System.out.println("test ");
 		int[] A= {1,2,3};
-		System.out.println(Arrays.toString(solve(A)));
-
+		int[][] result = solve(A);
+		for(int[] item : result) {
+			for(int i : item) {
+				System.out.print(i+" ");
+			}
+			System.out.println();
+		}
+		
 	}
 
 }
