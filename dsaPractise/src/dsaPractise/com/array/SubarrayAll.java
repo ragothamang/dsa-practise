@@ -1,7 +1,8 @@
 package dsaPractise.com.array;
 
 import java.util.Arrays;
-//Sub-array printing 
+//Sub-array printing - All sub arrays are printed
+
 public class SubarrayAll {
 	
 	 public static  int[][] solve(int[] A) {
