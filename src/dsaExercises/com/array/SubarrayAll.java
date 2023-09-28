@@ -1,7 +1,7 @@
 package dsaExercises.com.array;
 
 import java.util.Arrays;
-
+//Sub-array printing
 public class SubarrayAll {
 	
 	 public static  int[][] solve(int[] A) {
