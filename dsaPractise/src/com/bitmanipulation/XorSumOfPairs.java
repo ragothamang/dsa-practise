@@ -31,7 +31,8 @@ public class XorSumOfPairs {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int ip[] = {3,4,2};
+//		int ip[] = {3,4,2};
+		int ip[] = {8,9,10,11,17};
 		System.out.println(solve(ip));
 	}
 
